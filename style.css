@@ -1,0 +1,18 @@
+
+
+
+
+
+
+.heading img {
+    width: 50px;
+    height: 50px;
+}
+
+.heading ul{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
