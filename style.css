@@ -2,31 +2,91 @@
 
 
 
-
 .heading {
     display: flex;
-    justify-content: space-around;
-
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #1f2937;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #e5e7eb;
+}
+.top {
+display: flex;
+flex-direction: row;
+flex: 100%;
+margin: 16px 64px;
+align-self: center:
+}
+.links {
+    margin-left: auto;
 
 }
-.hero-text .icon {
+.top img {
     width: 50px;
     height: 50px;
-}
-.heading img {
-    width: 150px;
-    height: 150px;
+    border-radius: 50%;
+    margin: 16px 0px;
 }
 .heading ul{
     list-style: none;
     display: flex;
     margin-left: auto;
+    font-size: 24px;
+    color: #e5e7eb;
+    gap: 16px;
+}
+.hero-text {
+margin: 16px 64px;
+}
+button {
+    border-radius: 15px;
+    padding: 8px;
+}
+.image img{
+    height: 200px;
+    width: 200px;
+    padding-right: 64px;
+}
+.hero-text h1 {
+    font-weight: bolder;
+    font-size: 48px;
+    color: #f9faf8;
+}
+.hero-text img {
+    width:200px;
+    height: 200px;
+}
+.hook p {
+    font-size: 18px;
+    width: 600px;
+}
+.intro {
+    display: flex; 
+    justify-content: space-around; 
+}
+.intro img {
+    height: 200px;
+    width: auto;
+}
+
+.info-container h1 {
+    flex: 100%;
+    text-align: center;
+    margin: 0px
 }
 .item-container {
     display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 .items img {
    width: 200px;
+   height: 200px;
+   border-radius: 15px;
+}
+.items .text {
+    width: 200px;
 }
 
 a {
