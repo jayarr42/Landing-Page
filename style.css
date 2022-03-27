@@ -10,6 +10,7 @@
     font-size: 48px;
     font-weight: bolder;
     color: #e5e7eb;
+    padding-bottom: 128px;
 }
 .top {
 display: flex;
@@ -20,7 +21,6 @@ align-self: center:
 }
 .links {
     margin-left: auto;
-
 }
 .top img {
     width: 50px;
@@ -37,28 +37,38 @@ align-self: center:
     gap: 16px;
 }
 .hero-text {
-margin: 16px 64px;
-width: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 16px 64px;
+    width: 500px;
 }
 .hero-text h1 {
     font-weight: bolder;
     font-size: 48px;
     color: #f9faf8;
     margin: 0px;
+    padding: 0px;
 }
 button {
     border-radius: 15px;
     padding: 8px 16px;
     background-color: #3882f6;
+    color:#e5e7eb;
+    font-weight: bold;
+}
+.top-button {
+    border-radius: ;
 }
 .image img{
-    height: 200px;
-    width: 200px;
+    height: auto;
+    width: 400px;
     padding-right: 64px;
 }
 .hook p {
     font-size: 18px;
-    width: 600px;
+    width: 400px;
+    padding-bottom: 0px;
+    margin: 0px;
 }
 .intro {
     display: flex; 
@@ -98,11 +108,32 @@ button {
     margin: 0px;
 }
 
-.
-
-
-
+.signup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 32px 10%;
+    color: #e5e7eb;
+    background-color: #3882f6;
+    padding: 32px 128px;
+    border-radius: 15px;
+}
+.su-head {
+    font-size: 32px;
+    font-weight: bolder;
+    margin: 0px;
+}
+.su-body {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px;
+}
+.su-button button{
+    border: 2px double #e5e7eb;
+    margin: auto 0px;
+    align-self: center;
+}
 a {
     text-decoration: none;
-    color: black;
+    color: #e5e7eb;
 }
