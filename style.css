@@ -38,24 +38,23 @@ align-self: center:
 }
 .hero-text {
 margin: 16px 64px;
-}
-button {
-    border-radius: 15px;
-    padding: 8px;
-}
-.image img{
-    height: 200px;
-    width: 200px;
-    padding-right: 64px;
+width: 500px;
 }
 .hero-text h1 {
     font-weight: bolder;
     font-size: 48px;
     color: #f9faf8;
+    margin: 0px;
 }
-.hero-text img {
-    width:200px;
+button {
+    border-radius: 15px;
+    padding: 8px 16px;
+    background-color: #3882f6;
+}
+.image img{
     height: 200px;
+    width: 200px;
+    padding-right: 64px;
 }
 .hook p {
     font-size: 18px;
@@ -65,20 +64,22 @@ button {
     display: flex; 
     justify-content: space-around; 
 }
-.intro img {
-    height: 200px;
-    width: auto;
-}
 
 .info-container h1 {
     flex: 100%;
     text-align: center;
-    margin: 0px
+    margin-top: 32px;
+    padding-bottom: 16px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+
 }
 .item-container {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-bottom: 64px;
 }
 .items img {
    width: 200px;
@@ -88,6 +89,18 @@ button {
 .items .text {
     width: 200px;
 }
+.testimonial {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    padding: 32px 64px;
+    margin: 0px;
+}
+
+.
+
+
 
 a {
     text-decoration: none;
